@@ -22,4 +22,15 @@ const [isOpen, setIsOpen] = useState(false);
 Basicamente, o botao é capaz de modificar o valor do booleano isOpen.
 //-----------------------------------------------------------------------------------------
 
+import {useRef} from 'react';
+
+const parentRef = useRef();
+
+
+normalmente, referenciamos elementos com "id"
+<div className="content-parent" id="parentRef">
+
+useRef permite criar uma referencia a elementos html.
+<div className="content-parent" ref={parentRef}>
+
 
