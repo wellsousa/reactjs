@@ -1,0 +1,25 @@
+
+
+{isOpen && <div className="content">Some content</div>}
+
+- Em javascript, a expressao acima funciona como se fosse um "if" se os dois lados da expressao
+sao "true". Esse trecho de codigo representando um componente sempre sera avaliado como "true"
+
+<div className="content">Some content</div>
+
+Se isOpen é um booleano é possivel fazer uma renderização condicional baseado no conceito de
+"ligado" e "desligado". quando isOpen é "true" entao a expressa retorna verdadeiro e a <div> e
+seu conteudo sao renderizados.
+//-----------------------------------------------------------------------------------------
+
+<button className="toggle" onClick={() => setIsOpen(!isOpen)}>+</button>
+
+- No codigo acima o evento onClick de button executa uma função arrow function que faz uma
+chamada a uma função useState no seguinte formato:
+
+const [isOpen, setIsOpen] = useState(false);
+
+Basicamente, o botao é capaz de modificar o valor do booleano isOpen.
+//-----------------------------------------------------------------------------------------
+
+
