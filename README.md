@@ -1,2 +1,8 @@
 # reactjs
-a repository to concetrate all react concepts xD
+um repositório para praticar os principais conceitos de reactjs.
+
+Projetos
+
+-components
+    -button
+        -collapsible-component
