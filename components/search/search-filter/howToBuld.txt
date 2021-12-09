@@ -1,0 +1,6 @@
+baseado no tutorial:
+https://www.youtube.com/watch?v=mZvKPtH9Fzo
+
+npx create-react-app search-filter
+
+Este projeto utiliza fake data do site https://www.mockaroo.com/
